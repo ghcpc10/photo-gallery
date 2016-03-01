@@ -1,9 +1,9 @@
-import {Component} from 'angular2/core';
-import {ROUTER_PROVIDERS, ROUTER_DIRECTIVES, RouteConfig} from 'angular2/router';
-import {HTTP_PROVIDERS} from 'angular2/http';
-import {HomeComponent} from './home/home';
-import {UploadComponent} from './upload/upload';
-import {bootstrap} from 'angular2/platform/browser';
+import { Component } from 'angular2/core';
+import { ROUTER_PROVIDERS, ROUTER_DIRECTIVES, RouteConfig } from 'angular2/router';
+import { HTTP_PROVIDERS } from 'angular2/http';
+import { HomeComponent } from './home/home';
+import { UploadComponent } from './upload/upload';
+import { bootstrap } from 'angular2/platform/browser';
 
 
 

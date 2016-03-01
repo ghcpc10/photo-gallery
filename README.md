@@ -10,7 +10,7 @@ A simple project is re-written in Angular1, Angular2 and also a Angular 2 hybrid
 ## Objective:
 
 1. Create an Angular Starter kit. With NodeJS and Gulp for building.
-2. Compare the difference among these 3 frameworks.
+2. Compare the difference between these 2 frameworks and the integration of both.
 3. Show the seamless path to upgrade apps from Angular 1 to Angular 2 using ngUpgrade
 
 
