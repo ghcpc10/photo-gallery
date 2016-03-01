@@ -20,7 +20,7 @@ export class PinComponent {
   }
 
 
-  isLiked(likedOrNot):void {
+  isLiked(likedOrNot:boolean):void {
     this.analyticsService.recordEvent('isLiked: : '+likedOrNot);
   }
 

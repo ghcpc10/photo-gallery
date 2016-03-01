@@ -25,7 +25,7 @@ export class UploadComponent {
     this.pinsService = _pinsService;
     this.analyticsService = _analyticsService;
 
-    this.pinsService.getPins().subscribe(pins => {
+    this.pinsService.getPins().subscribe((pins:Pin[]) => {
       console.log('upload==> getPins ', pins);
       this.pins = pins;
     });
@@ -37,7 +37,7 @@ export class UploadComponent {
   submitPin():void {
     this.showSavingLoader = true;
     setTimeout(() => {
-      this.pinsService.addPin(this.newPin).subscribe(pins => {
+      this.pinsService.addPin(this.newPin).subscribe((pins:Pin[]) => {
         this.showSavingLoader = false;
         this.router.navigate( ['/Home'] );
         this.analyticsService.recordEvent('submitPin');

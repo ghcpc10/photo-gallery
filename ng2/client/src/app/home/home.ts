@@ -17,7 +17,7 @@ export class HomeComponent {
   constructor(_pinsService: PinsService) {
     this.pinsService = _pinsService;
 
-    this.pinsService.getPins().subscribe(pins => {
+    this.pinsService.getPins().subscribe((pins:Pin[]) => {
       console.log('home => getPins', pins);
       this.pins = pins;
     });

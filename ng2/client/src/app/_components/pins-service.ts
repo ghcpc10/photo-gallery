@@ -29,7 +29,7 @@ export class PinsService {
           return allPins;
         });
     }else{
-      return this.allPinsObservable = new Observable.create(observer => {
+      return this.allPinsObservable = Observable.create((observer:any) => {
         this.allPinsObserver = observer.next( this.appInst.getAllPins() );
       });
     }
@@ -40,7 +40,7 @@ export class PinsService {
     allPins.unshift(newPin);
 
     this.appInst.setAllPins(allPins);
-    return this.allPinsObservable = new Observable.create(observer => {
+    return this.allPinsObservable = Observable.create((observer:any) => {
       return observer.next(allPins);
     });
   }

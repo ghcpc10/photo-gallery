@@ -24,7 +24,7 @@ export class AppSingletonService {
     return AppSingletonService.instance;
   }
 
-  setAllPins(allPins) {
+  setAllPins(allPins:Pin[]) {
     this.allPins = allPins;
   }
 
