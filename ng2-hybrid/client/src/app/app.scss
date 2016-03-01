@@ -1,0 +1,76 @@
+
+body {
+  background-color: #E4E4E4;
+  font-family: "San Francisco", "Helvetica Neue", Helvetica,Arial,sans-serif;
+}
+
+.page-header {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  background-color: white;
+}
+
+
+
+
+.navLinks {
+  padding-top: 10px;
+
+  .navLink {
+    margin: 10px;
+    color: black;
+    display:inline-block;
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 1px solid #A2A2A2;
+    }
+  }
+
+}
+
+
+
+
+
+
+/**
+ * https://gist.github.com/AndrewBarba/2c0f6612ceef30f5f55d#file-sanfrancisco-font-css
+ * http://applemusic.tumblr.com/
+ */
+
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: normal;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2");
+}
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: bold;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2");
+}

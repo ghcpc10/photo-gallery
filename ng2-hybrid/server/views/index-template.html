@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PhotoGallery ng1+ng2</title>
+  <base href="/">
+  <!-- inject:css -->
+  <!-- endinject:css -->
+  <link rel="stylesheet" href="/dist/app/app.css">
+</head>
+<body class="container-fullwidth">
+  <!-- config:js (ng1) -->
+  <div ui-view>
+    <div class="page-header">
+      <div class="container">
+        <div class="navLinks">
+          <div class="navLink">Gallery</div>
+          <div class="navLink">Upload</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      LOADING ...
+    </div>
+  </div>
+  <!-- inject:js (vendor: angular2) -->
+  <script src="/node_modules/es6-shim/es6-shim.js"></script>
+  <script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
+  <script src="/node_modules/systemjs/dist/system.src.js"></script>
+  <script src="/node_modules/rxjs/bundles/Rx.js"></script>
+  <script src="/node_modules/angular2/bundles/upgrade.dev.js"></script>
+  <script src="/node_modules/angular2/bundles/angular2.dev.js"></script>
+  <!-- inject:js (vendor: npm) -->
+  <!-- inject:js (vendor: bower) -->
+  <!-- inject:js (ng1: app+components) -->
+  <script src="/dist/app/app-ng1.js"></script>
+  <script src="/dist/components/components-ng1.js"></script>
+  <!-- config:js (ng2: system.js) -->
+  <script>
+    System.config({
+      packages: {
+        dist: {
+          //format: 'register',
+          defaultExtension: 'js'
+        }
+      },
+      paths: {
+        'angular-ui-router': './client/bower_components/angular-ui-router/release/angular-ui-router.js',
+        'underscore': './node_modules/underscore/underscore.js',
+        'PinerestApp_ng1': '/dist/app/app-ng1.js'
+      }
+    });
+    System.import('/dist/app/app-ng2.js')
+      .then(null, console.error.bind(console));
+    <!-- end config -->
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,88 @@
+.thumbnail {
+  padding: 0px;
+  position: relative;
+
+  & > .overlay {
+    display:none;
+  }
+
+  &:hover > .overlay {
+    display: block;
+  }
+}
+
+
+
+
+
+
+/* content */
+.thumbnail .content {
+  .imageHolder {
+    max-height:300px;
+    margin:20px;
+    overflow:hidden;
+
+    .image {
+      width:100%;
+    }
+  }
+
+
+  .imageOwner {
+    background-color:#eee;
+    padding-top: 10px;
+    padding-bottom: 7px;
+
+    h4 {
+      display: inline;
+      color: #525252;
+      margin-left: 4px;
+      font-size: 14px;
+    }
+
+    .owner {
+      display: inline;
+      margin-left: 8px;
+      height: 32px;
+    }
+  }
+}
+
+
+
+/* overlay */
+.thumbnail .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+
+  .controls {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px 10px;
+  }
+  .heart {
+    float: right;
+    transition: all .2s ease-in-out;
+  }
+  .heart:hover {
+    transform: scale(1.4);
+  }
+
+  &:hover {
+    background-color: rgba(10, 10, 10, 0.3);
+
+    .heart {
+      transform: scale(1.4);
+    }
+  }
+}
+
+
+
+
+

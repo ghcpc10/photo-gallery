@@ -1,0 +1,15 @@
+{
+  "name": "bellabeaute",
+  "version": "0.0.0",
+  "scripts": {},
+  "dependencies": {
+    "angular": "~1.4.8",
+    "modernizr": "2.8.3",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap-css-only": "~3.3.6",
+    "lodash": "~3.10.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.8"
+  }
+}

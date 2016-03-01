@@ -1,0 +1,8 @@
+<div class="overlay" (click)="toggleLike()">
+  <div class="controls">
+    <div class="heart">
+      <img src="/assets/images/Heart-Empty.png" *ngIf="!pin.liked">
+      <img src="/assets/images/Heart-Red.png" *ngIf="pin.liked">
+    </div>
+  </div>
+</div>

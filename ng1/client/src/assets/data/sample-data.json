@@ -1,0 +1,50 @@
+[
+  {
+    "id": "106033588",
+    "user_name": "totobreak",
+    "user_avatar": "assets/images/avatars/avatar01.jpg",
+    "img_title": "sock puppets",
+    "img_src": "assets/images/products/sample_01.jpg",
+    "liked": false
+  },
+  {
+    "id": "4422575066",
+    "user_name": "mikiyoshi",
+    "user_avatar": "assets/images/avatars/avatar02.jpg",
+    "img_title": "Puppet play.",
+    "img_src": "assets/images/products/sample_02.jpg",
+    "liked": true
+  },
+  {
+    "id": "6819859061",
+    "user_name": "gilliflower",
+    "user_avatar": "assets/images/avatars/avatar11.jpg",
+    "img_title": "easy to make puppets - oliver owl (detail)",
+    "img_src": "assets/images/products/sample_03.jpg",
+    "liked": false
+  },
+  {
+    "id": "3714437087",
+    "user_name": "kissabug",
+    "user_avatar": "assets/images/avatars/avatar03.jpg",
+    "img_title": "Puppet Time",
+    "img_src": "assets/images/products/sample_04.jpg",
+    "liked": false
+  },
+  {
+    "id": "6863434196",
+    "user_name": "amusta",
+    "user_avatar": "assets/images/avatars/avatar07.jpg",
+    "img_title": "shadow puppets",
+    "img_src": "assets/images/products/sample_05.jpg",
+    "liked": false
+  },
+  {
+    "id": "18690623833",
+    "user_name": "uts_library",
+    "user_avatar": "assets/images/avatars/avatar08.jpg",
+    "img_title": "Puppet Collection",
+    "img_src": "assets/images/products/sample_06.jpg",
+    "liked": false
+  }
+]

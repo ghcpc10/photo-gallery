@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="PinerestApp">
+<head>
+  <meta charset="utf-8">
+  <title>PhotoGallery ng1</title>
+  <base href="/">
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/client/bower_components/bootstrap-css-only/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/client/bower_components/bootstrap-css-only/css/bootstrap.min.css">
+  <!-- endinject:css -->
+  <link rel="stylesheet" href="/dist/app.css">
+</head>
+<body class="container-fullwidth">
+  <!-- angular -->
+  <div ui-view>
+    <div class="page-header">
+      <div class="container">
+        <div class="navLinks">
+          <div class="navLink">Gallery</div>
+          <div class="navLink">Upload</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      LOADING ...
+    </div>
+  </div>
+  <!-- inject:js (vendor) -->
+  <script src="/client/bower_components/modernizr/modernizr.js"></script>
+  <script src="/client/bower_components/angular/angular.js"></script>
+  <script src="/client/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="/client/bower_components/lodash/lodash.js"></script>
+  <!-- inject:js (app) -->
+  <script src="/client/components/polyfill/moment.js"></script>
+  <script src="/client/components/polyfill/lodash.js"></script>
+  <script src="/client/app/app.js"></script>
+  <script src="/client/app/home/pin/pin-overlay/pin-overlay-directive.js"></script>
+  <script src="/client/app/home/pin/pin-content/pin-content-directive.js"></script>
+  <script src="/client/app/home/pin/pin-filter.js"></script>
+  <script src="/client/app/home/pin/pin-directive.js"></script>
+  <script src="/client/app/upload/upload-controller.js"></script>
+  <script src="/client/app/home/home-controller.js"></script>
+  <script src="/client/app/_components/pins-service.js"></script>
+  <script src="/client/app/_components/analytics-service.js"></script>
+  <script src="/client/app/app-routes.js"></script>
+  <!-- endinject -->
+</body>
+</html>
+
