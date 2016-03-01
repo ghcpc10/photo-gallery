@@ -2,7 +2,7 @@
 
 Highlights:
 
-1. Concat angular 1 into one app-ng1.js and bootstrap it into app-ng2.js using SystemJS.
+1. Concat angular 1 into one app-ng1 component and bootstrap it into app-ng2 using SystemJS.
   
 2. In order to reuse angular1 services and modules in angular2, we need to manually create a TypeScript definition file and define the components we created (app-ng1.d.ts).
   
