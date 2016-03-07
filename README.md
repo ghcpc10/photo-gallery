@@ -2,8 +2,8 @@
 
 A simple project is re-written in Angular1, Angular2 and also a Angular 2 hybrid app using ngUpgrade and SystemJS. This project includes 3 apps: 
 
-1. ng1 folder: A ng1 Photo Gallery app.
-2. ng2 folder: A ng2 Photo Gallery app.
+1. ng1 folder: An AngularJS Photo Gallery app.
+2. ng2 folder: An Angular2 Photo Gallery app.
 3. ng2-hybrid folder: A Photo Gallery app using both Angular 1 and 2 (a.k.a. Angular 2 hybrid)
 
 
