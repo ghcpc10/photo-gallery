@@ -11,3 +11,4 @@ The purpose of this app is to demonstrate the difference between angular1 and 2.
 
 1. gulp serve
 2. gulp build
+3. To see app run go to: http://localhost:3031

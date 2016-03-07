@@ -16,5 +16,6 @@ Highlights:
 
 ## Getting Started
 
-1. gulp serve
-2. gulp build
+1. Install tsd globally using npm
+2. Run "gulp serve" or "gulp build"
+3. To see app run go to: http://localhost:3033
