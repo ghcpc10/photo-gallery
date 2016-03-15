@@ -1,25 +1,22 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "system",
-    "moduleResolution": "node",
-    "outDir": "./dist/app",
-    "rootDir": "./client/src",
-    "sourceMap": true,
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "removeComments": false,
-    "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
+    "sourceMap": true
   },
   "compileOnSave": false,
   "buildOnSave": false,
   "files": [
-    "./typings/tsd.d.ts",
     "./client/src/app/app-ng1.d.ts",
     "./client/src/app/app-ng2.ts"
   ],
   "filesGlob": [
+    "./typings/**/*.d.ts",
     "./client/src/app/**/*.ts",
     "./client/src/components/**/*.ts",
     "!./node_modules/**/*.ts"
