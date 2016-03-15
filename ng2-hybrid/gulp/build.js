@@ -128,7 +128,7 @@ gulp.task('html', ['clean'], function() {
         addPrefix: 'client',
         ignorePath: 'client/src',
         starttag: '<!-- inject:js (vendor: bower) -->',
-        endtag: '<!-- inject:js (ng1: app+components) -->'
+        endtag: '<!-- config:js (ng2: system.js) -->'
     }))
     .pipe(gulp.dest('./server/views'));
 });

@@ -25,7 +25,7 @@
       LOADING ...
     </div>
   </div>
-  <!-- inject:js (vendor: angular2) -->
+  <!-- inject:js (vendor: ng2) -->
   <script src="/node_modules/es6-shim/es6-shim.js"></script>
   <script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
   <script src="/node_modules/systemjs/dist/system.src.js"></script>
@@ -38,28 +38,24 @@
   <script src="/client/bower_components/angular/angular.js"></script>
   <script src="/client/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
   <script src="/client/bower_components/lodash/lodash.js"></script>
-  <!-- inject:js (ng1: app+components) -->
-  <script src="/dist/app/app-ng1.js"></script>
-  <script src="/dist/components/components-ng1.js"></script>
   <!-- config:js (ng2: system.js) -->
   <script>
     System.config({
       packages: {
         dist: {
-          //format: 'register',
+          // format: 'register',
           defaultExtension: 'js'
         }
       },
       paths: {
         'angular-ui-router': './client/bower_components/angular-ui-router/release/angular-ui-router.js',
-        'underscore': './node_modules/underscore/underscore.js',
         'PinerestApp_ng1': '/dist/app/app-ng1.js'
       }
     });
     System.import('/dist/app/app-ng2.js')
       .then(null, console.error.bind(console));
-    <!-- end config -->
   </script>
+  <!-- end config -->
 </body>
 </html>
 
