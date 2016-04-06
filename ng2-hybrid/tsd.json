@@ -5,14 +5,14 @@
   "path": "typings",
   "bundle": "typings/tsd.d.ts",
   "installed": {
-    "angular-ui-router/angular-ui-router.d.ts": {
-      "commit": "ab2462147a313f69e7118625cfcce21c005fa4af"
-    },
     "angularjs/angular.d.ts": {
-      "commit": "ab2462147a313f69e7118625cfcce21c005fa4af"
+      "commit": "81ebfb3d08cd608a7c801668a6d5f7b2ea9ecc38"
     },
     "jquery/jquery.d.ts": {
-      "commit": "ab2462147a313f69e7118625cfcce21c005fa4af"
+      "commit": "81ebfb3d08cd608a7c801668a6d5f7b2ea9ecc38"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "81ebfb3d08cd608a7c801668a6d5f7b2ea9ecc38"
     }
   }
 }

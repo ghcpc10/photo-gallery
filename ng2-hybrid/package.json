@@ -29,7 +29,7 @@
   "devDependencies": {
     "concurrently": "1.0.0",
     "del": "^1.2.0",
-    "run-sequence": "^1.1.1",
+    "gulp": "^3.9.1",
     "gulp-angular-filesort": "^1.1.1",
     "gulp-autoprefixer": "^0.0.6",
     "gulp-babel": "^5.2.1",
@@ -47,6 +47,7 @@
     "karma-chrome-launcher": "0.1.4",
     "karma-jasmine": "0.1.5",
     "live-server": "0.9.0",
+    "run-sequence": "^1.1.1",
     "wiredep": "^1.8.5",
     "yargs": "^3.32.0"
   }
