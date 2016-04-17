@@ -4,7 +4,7 @@
   "scripts": {
     "tsc": "./node_modules/.bin/tsc",
     "tsc:w": "./node_modules/.bin/tsc -w",
-    "serve": "./node_modules/.bin/live-server --host=localhost --port=3302 .",
+    "serve": "./node_modules/.bin/live-server --host=localhost --port=3303 .",
     "go": "concurrent \"npm run tsc:w\" \"npm run serve\" "
   },
   "author": "Matt CP Chen",
