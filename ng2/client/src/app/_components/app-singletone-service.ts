@@ -15,7 +15,7 @@ export class AppSingletonService {
   }
 
   static getInstance() {
-    if (AppSingletonService.instance === null) {
+    if (AppSingletonService.instance == null) {
       AppSingletonService.isCreating = true;
       AppSingletonService.instance = new AppSingletonService();
       AppSingletonService.isCreating = false;
