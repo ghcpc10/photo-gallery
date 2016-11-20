@@ -7,6 +7,7 @@ dist
 log/
 .lo
 .idea/
+.info/
 npm-debug.log
 public/test/JasmineSpecRunner.html
 views/index.html
